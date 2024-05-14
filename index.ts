@@ -43,5 +43,11 @@ console.log(bigNumber+bigNumber2)
 console.log(bigNumber3)
 
 //any and unknown
-//any can be used for migration
-let myNum:any = 6;
+//any can be used for migration js to ts
+let myNum:unknown = 6;
+myNum = "oggy"
+if(typeof myNum === "number"){
+    console.log(myNum)
+}
+
+

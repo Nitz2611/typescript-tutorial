@@ -29,5 +29,9 @@ let bigNumber3 = Number.MAX_SAFE_INTEGER;
 console.log(bigNumber + bigNumber2);
 console.log(bigNumber3);
 //any and unknown
-//any can be used for migration
+//any can be used for migration js to ts
 let myNum = 6;
+myNum = "oggy";
+if (typeof myNum === "number") {
+    console.log(myNum);
+}
