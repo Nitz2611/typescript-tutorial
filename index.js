@@ -1,5 +1,5 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
+// export {};
 console.log("Hello world");
 let a = 12;
 const b = 18;
